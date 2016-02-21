@@ -1,0 +1,2 @@
+description="Code Coloration is a code syntax highlighter. Requires Markdown plugin higher in the table. See README.md for more info."
+parameters="CUSTOM_PRISM_JS_FILENAME"
