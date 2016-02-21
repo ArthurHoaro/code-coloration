@@ -1,6 +1,6 @@
 # Code Coloration - Plugin Shaarli
  
-Code Coloration is a client-side code syntax highlighter plugin for Shaarli.
+Code Coloration is a client-side code syntax highlighter plugin for [Shaarli](https://github.com/shaarli/Shaarli).
  
 It uses [PrismJS](https://github.com/PrismJS/prism) library.
 
