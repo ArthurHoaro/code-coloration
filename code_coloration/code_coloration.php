@@ -1,5 +1,9 @@
 <?php
 
+use Shaarli\Router;
+use Shaarli\Plugin\PluginManager;
+use Shaarli\Config\ConfigManager;
+
 /**
  * Adds PRISM CSS file.
  *
