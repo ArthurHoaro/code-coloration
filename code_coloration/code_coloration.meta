@@ -1,2 +1,2 @@
 description="Code Coloration is a code syntax highlighter."
-parameters="CUSTOM_PRISM_JS_FILENAME"
+parameters="CUSTOM_PRISM_JS_FILENAME;CUSTOM_PRISM_CSS_FILENAME"
