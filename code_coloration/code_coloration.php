@@ -18,7 +18,7 @@ function hook_code_coloration_render_includes($data, $conf)
     if ($data['_PAGE_'] == TemplatePage::LINKLIST) {
         $custom = $conf->get('plugins.CUSTOM_PRISM_CSS_FILENAME');
         $filename = !empty($custom) ? $custom : 'prism.css';
-        $data['css_files'][] = ($data['_BASE_PATH_'] ?? '') . '/' . PluginManager::$PLUGINS_PATH . '/code_coloration/' . $filename;
+        $data['css_files'][] = PluginManager::$PLUGINS_PATH . '/code_coloration/' . $filename;
     }
     return $data;
 }
@@ -37,7 +37,7 @@ function hook_code_coloration_render_footer($data, $conf)
     if ($data['_PAGE_'] == TemplatePage::LINKLIST) {
         $custom = $conf->get('plugins.CUSTOM_PRISM_JS_FILENAME');
         $filename = !empty($custom) ? $custom : 'prism.js';
-        $data['js_files'][] = ($data['_BASE_PATH_'] ?? '') . '/' . PluginManager::$PLUGINS_PATH . '/code_coloration/'. $filename;
+        $data['js_files'][] = PluginManager::$PLUGINS_PATH . '/code_coloration/'. $filename;
     }
     return $data;
 }
